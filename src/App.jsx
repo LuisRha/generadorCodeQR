@@ -40,13 +40,21 @@ function App() {
   
       {!isGenerated ? (
         <>
-          
+                   
           <input
             type="text"
             placeholder="Ingresa un enlace"
             value={link}
             onChange={handleLinkChange}
             style={{ width: '500px', height: '' }} // Cambia el ancho según tus necesidades
+          />
+
+          <input
+          type="text"
+          placeholder="Ingresa un nombre o título para el enlace"
+          value={title}
+          onChange={handleTitleChange}
+          style={{ width: '300px' }} // Cambia el ancho según tus necesidades
           />
           
           {/* <button onClick={handleGenerate}>Generar Código QR</button> */}
