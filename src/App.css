@@ -1,0 +1,36 @@
+/* App.css */
+body {
+  background-image: url("public/gif.gif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.button-generate {
+  background-color: #eb1313; /* Color de fondo verde */
+  color: rgb(250, 251, 252); /* Color del texto en blanco */
+  /* border: none; */
+  /* padding: 0px 10px; */
+  cursor:zoom-in;
+  font-size:medium;
+}
+
+h1 {
+    color: rgb(236, 204, 20);
+    text-align: center;
+    text-align: center;
+    font-weight: 900;
+  }
+
+  .App {
+    color: rgb(255, 0, 34);
+    text-align: center;
+    margin: 20px;
+    
+  }
+
+  .qr-code-container {
+    margin: 1px;
+    border: 5px solid #8e99b8; /* Opcional: Agregar un borde alrededor del código QR */
+    display: inline-block; /* Para que el margen funcione sin ocupar todo el ancho*/
+  }
