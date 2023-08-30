@@ -49,7 +49,7 @@ function App() {
             style={{ width: '500px', height: '' }} // Cambia el ancho según tus necesidades
           />
 
-          <input
+        <input
           type="text"
           placeholder="Ingresa un nombre o título para el enlace"
           value={title}
