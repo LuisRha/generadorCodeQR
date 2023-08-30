@@ -48,13 +48,7 @@ function App() {
             onChange={handleLinkChange}
             style={{ width: '500px', height: '' }} // Cambia el ancho según tus necesidades
           />
-          <input
-            type="text"
-            placeholder="Ingresa un nombre o título"
-            value={title}
-            onChange={handleTitleChange}
-            style={{ width: '160px', height: '' }} // Cambia el ancho según tus necesidades
-          />
+          
           {/* <button onClick={handleGenerate}>Generar Código QR</button> */}
           <button className="button-generate" onClick={handleGenerate}>
             Generar Código QR
